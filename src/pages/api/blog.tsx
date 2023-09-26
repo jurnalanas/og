@@ -43,7 +43,7 @@ export default async function handler(req: NextRequest) {
           justifyContent: 'center',
           textAlign: 'center',
           padding: '4rem 3rem',
-          backgroundColor: '#222',
+          backgroundColor: '#292524',
         }}
       >
         <div
@@ -69,9 +69,9 @@ export default async function handler(req: NextRequest) {
               style={{ margin: 0 }}
               tw={clsx('text-2xl font-normal text-gray-300')}
             >
-              theodorusclarence.com/blog
+              jurnalanas.com
             </h3>
-            <h1 tw={clsx('mt-0', 'text-4xl leading-tight font-normal')}>
+            <h1 tw={clsx('mt-0', 'text-6xl leading-tight font-bold')}>
               <span
                 style={
                   {
@@ -98,7 +98,7 @@ export default async function handler(req: NextRequest) {
             >
               <img
                 tw='w-[80px] rounded-full'
-                src='https://res.cloudinary.com/theodorusclarence/image/upload/c_fill,g_auto:face,h_160,w_160/v1673957822/theodorusclarence/about/self-3_square_jtiwai.jpg'
+                src='https://avatars.githubusercontent.com/u/876900?v=4'
                 alt='Photo of me'
               />
               <div
@@ -112,10 +112,10 @@ export default async function handler(req: NextRequest) {
                   style={{ margin: 0 }}
                   tw='font-medium text-[1.6rem] mt-0 text-white'
                 >
-                  Theodorus Clarence
+                  Anas
                 </p>
                 <p style={{ margin: 0 }} tw='text-xl mt-0 text-gray-300'>
-                  @th_clarence
+                  @oianas_
                 </p>
               </div>
             </div>
